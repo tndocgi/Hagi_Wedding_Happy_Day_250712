@@ -21,12 +21,8 @@
 <body>
   <img id="img">
   <script>
-    const images = [
-      "omikuji-kichi.png",
-      "daikichi.jpg",
-      "chukiti.jpg"
-    ];
-    const weights = [0.5, 0.3, 0.2]; // 確率（合計1.0）
+    const images = ["01_HagiKichi.png","02_ChuHagiKichi.png","03_DaiHagiKichi.png","04_ChoHagiKichi.png","05_ChoChoHagiKichi.png","06_GodHagiKichi.png"];
+    const weights = [0.06, 0.125, 0.5,,0.25,0.06,0.005]; // 確率（合計1.0）
 
     function weightedRandom(items, weights) {
       let total = weights.reduce((a, b) => a + b, 0);
